@@ -1,0 +1,13 @@
+# Molecular Dynamics Analysis
+
+This is a program/pipeline that...
+
+To run:
+
+	1. Download...
+	
+	2. You will need these python modules...
+	
+	3. Edit file to....
+
+	etc.
