@@ -24,14 +24,15 @@ Edit the output file name if not wanting to overwrite the original.
 
 To run:  
 
-1. Download the `Simulation_Analysis.ipynb` notebook as well as all your raw data/sample datasets from this repository into a single directory.  
+1. Download the `Simulation_Analysis.ipynb` notebook as well as all your raw data/sample datasets from this repository into a single directory. The sample data includes `HMR_MMPBSA.csv`, `Standard_MMPBSA.csv` and `EXP_data.csv`.
 2. Install the necessary Python modules and Jupyter if needed.  
-3. Edit file and data names as needed. The notebook is currently set up to process the sample data provided. Note that if using raw data that does not follow the formatting conventions of the sample data, the data processing function will need to be edited accordingly. If testing more than two methods, edit the subplot number and add plot commands as needed.  
+3. Edit file and data names, plot axis and title as needed. The notebook is currently set up to process the sample data provided. Note that if using raw data that does not follow the formatting conventions of the sample data, the data processing function will need to be edited accordingly. If testing more than two methods, edit the subplot number and add plot commands as needed.  
 4. Run the notebook within your development environment or by using the command provided above.  
 
-   - The first cell collects and organizes the datasets into one combined DataFrame.  
-   - The second cell plots the MMGBSA values for each computational method against the experimental values, including linear regression.  
-   - The third cell calculates statistical metrics for both computational datasets.  
+   - The first cell imports all relevant python modules.
+   - The second cell collects and organizes the datasets into one combined DataFrame.  
+   - The third cell plots the MMGBSA values for each computational method against the experimental values, including linear regression.  
+   - The forth cell calculates statistical metrics for both computational datasets.  
 
 ## Output  
 
