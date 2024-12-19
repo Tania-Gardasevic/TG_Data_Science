@@ -15,7 +15,7 @@ To run, you will need to have Python installed, including the following necessar
 The code is written in a Jupyter Notebook, which can be run through your preferred development environment. Alternatively, you can install Jupyter using pip or conda and run it from the command line using the following command:  
 
 ```bash
-jupyter nbconvert --execute Simulation_Analysis.ipynb --output Simulation_Analysis.ipynb
+jupyter nbconvert --execute Simulation_Analysis.ipynb --to notebook --output Simulation_Analysis.ipynb
 ```
 
 Edit the output file name if not wanting to overwrite the original.  
